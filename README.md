@@ -34,8 +34,8 @@ The datasets which I obtained lived in the Shapefile .shp GIS (Geographic Inform
 ![service-screen-shots-c](https://user-images.githubusercontent.com/5253939/158250114-f6507b68-1e32-4308-8cc3-b818b09271d9.png)  
 Spatial objects  
 I am making use of following spatial objects: Point, LineString, Polygon and MultiPolygon. For example my static spatial data covering the whole country of Denmark lives in SQL Azure as a MultiPolygon.  
+![service-screen-shots-e](https://user-images.githubusercontent.com/5253939/158235066-e619a901-269b-450b-a4bd-e50ed665de25.png)  
 ![service-screen-shots-f](https://user-images.githubusercontent.com/5253939/158235078-c27301b8-b28c-4e0d-9837-ca508e1c5640.png)  
 ![service-screen-shots-p](https://user-images.githubusercontent.com/5253939/158235085-a201e6e1-bc55-4916-962e-0e9c087859bf.png)  
-![service-screen-shots-e](https://user-images.githubusercontent.com/5253939/158235066-e619a901-269b-450b-a4bd-e50ed665de25.png)  
 SQL Server Spatial Methods I am employing:  
 MakeValidGeographyFromText(), InstanceOf(), Reduce(), STIntersects(), STDistance(), EnvelopeCenter(), STUnion(), STArea(), STBuffer().  
