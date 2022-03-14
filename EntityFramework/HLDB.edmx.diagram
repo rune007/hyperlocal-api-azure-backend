@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2cb7d34da7b14551b9b440da9112c966" Name="Diagram1" ZoomLevel="89">
+        <EntityTypeShape EntityType="HLDBModel.Medium" Width="1.75" PointX="3.375" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HLDBModel.NewsItemPhoto" Width="1.5" PointX="0.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HLDBModel.NewsItemVideo" Width="1.5" PointX="5.875" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HLDBModel.Photo" Width="1.75" PointX="3.5" PointY="3.125" IsExpanded="true" />
+        <InheritanceConnector EntityType="HLDBModel.NewsItemVideo" />
+        <InheritanceConnector EntityType="HLDBModel.Photo" />
+        <InheritanceConnector EntityType="HLDBModel.NewsItemPhoto" />
+        <EntityTypeShape EntityType="HLDBModel.CommunityPhoto" Width="1.75" PointX="2.25" PointY="5.625" />
+        <EntityTypeShape EntityType="HLDBModel.UserPhoto" Width="1.5" PointX="4.5" PointY="5.625" />
+        <InheritanceConnector EntityType="HLDBModel.CommunityPhoto" />
+        <InheritanceConnector EntityType="HLDBModel.UserPhoto" />
+        <EntityTypeShape EntityType="HLDBModel.Assignment" Width="1.5" PointX="10.25" PointY="0.5" />
+        <EntityTypeShape EntityType="HLDBModel.NewsItemCategory" Width="1.875" PointX="10.5" PointY="0.5" />
+        <EntityTypeShape EntityType="HLDBModel.PollOption" Width="1.5" PointX="8.75" PointY="3.25" />
+        <EntityTypeShape EntityType="HLDBModel.PollUser" Width="1.5" PointX="13.5" PointY="3.125" />
+        <EntityTypeShape EntityType="HLDBModel.AssignmentPhoto" Width="1.875" PointX="6.25" PointY="5.625" />
+        <InheritanceConnector EntityType="HLDBModel.AssignmentPhoto" />
+        <EntityTypeShape EntityType="HLDBModel.Poll" Width="2.125" PointX="10.75" PointY="3.25" />
+        <EntityTypeShape EntityType="HLDBModel.PollType" Width="1.5" PointX="13.125" PointY="5.25" />
+        <AssociationConnector Association="HLDBModel.FK_PollOptions_Polls" />
+        <AssociationConnector Association="HLDBModel.FK_Polls_PollTypes" />
+        <AssociationConnector Association="HLDBModel.FK_PollUsers_Polls" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
